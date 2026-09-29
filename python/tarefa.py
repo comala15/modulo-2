@@ -1,3 +1,4 @@
+
 # tarefa 1
 #ola="Ola mundo!"
 #print(ola)
@@ -142,11 +143,11 @@
 #print(f"O seu IMC é = {imc:.2f}")
 #---------------------------------------------
 # tarefa 27
-#nota1 = float(input("Digite a primeira nota (peso 2) "))
-#nota2 = float(input("Digite a segunda nota (peso 3) "))
-#peso1 = 2
-#peso2 = 3
-#mp = (nota1 * peso1 + nota2 * peso2) / (peso1 + peso2)
+#nota1 = float(input("Digite a primeira nota (pesoa 2) "))
+#nota2 = float(input("Digite a segunda nota (pesoa 3) "))
+#pesoa1 = 2
+#pesoa2 = 3
+#mp = (nota1 * pesoa1 + nota2 * pesoa2) / (pesoa1 + pesoa2)
 #print(f"A média ponderada é = {mp:.2f}")
 #---------------------------------------------
 # tarefa 28
@@ -173,19 +174,74 @@
 #---------------------------------------------
 # tarefa 31
 #numero = float(input("Digite um número "))
-#if numero > 0:
-#print("O número é positivo.")
-#elif numero < 0:
-#print("O número é negativo.")
+#if (numero > 0):
+  #print("O número é positivo.")
+#elif (numero < 0):
+ #print("O número é negativo.")
 #else:
  #print("O número é igual a zero.")
 # tarefa 32
+#idade = int(input("Digite sua idade "))
+#if (idade > 18):
+#    print("Mais de 18")
+#elif (idade == 18):
+#    print("Tem 18")
+#---------------------------------------------
 # tarefa 33
+#numero =int(input("Digite um numero"))
+#if (numero / 2 == 0):
+#    print(f"O número {numero} é PAR.")
+#else:
+#    print(f"O número {numero} é ÍMPAR.")
+#---------------------------------------------
 # tarefa 34
+#numero1 = int (input("Digite um numero"))
+#numero2 = int (input("Digite um numero"))
+#if (numero1 < numero2):
+#    print(f"o numero {numero2} e maior")
+#elif (numero1 > numero2):
+#    print(f"o numero {numero1} e maior")
+#else:
+#    print("eles são iguais")
+ #---------------------------------------------
 # tarefa 35
+#num1 = int(input("Digite o primeiro numero: "))
+#num2 = int(input("Digite o segundo numero: "))
+#num3 = int(input("Digite o terceiro numero: "))
+#if (num1 >= num2 and num1 >= num3):
+#   maior = num1
+#elif (num2 >= num1 and num2 >= num3):
+#   maior = num2
+#else:
+#   maior = num3
+#print(f"O maior numero e {maior}")
+#---------------------------------------------
 # tarefa 36
+#num1 = int(input("Digite o primeiro numero: "))
+#num2 = int(input("Digite o segundo numero: "))
+#num3 = int(input("Digite o terceiro numero: "))
+#if (num1 <= num2 and num1 <= num3):
+#   menor = num1
+#elif (num2 <= num1 and num2 <= num3):
+#   menor = num2
+#else:
+#   menor = num3
+#print(f"O menor numero e {menor}")
+#---------------------------------------------
 # tarefa 37
+#nota1 = float(input("Digite sua nota"))
+#nota2 = float(input("Digite sua nota"))
+#nota3 = float(input("Digite sua nota"))
+#nota4 = float(input("Digite sua nota"))
+#media = (nota1 + nota2 + nota3 + nota4) /4
+
+#if (media >= 6):
+#    print("Aprovado")
+#elif (media <= 6):
+#    print("Reprovado")
+#---------------------------------------------
 # tarefa 38
+
 # tarefa 39
 # tarefa 40
 # tarefa 41
