@@ -241,11 +241,58 @@
 #    print("Reprovado")
 #---------------------------------------------
 # tarefa 38
+#nota1 = float(input("Digite sua nota"))
+#nota2 = float(input("Digite sua nota"))
+#nota3 = float(input("Digite sua nota"))
+#nota4 = float(input("Digite sua nota"))
+#media = (nota1 + nota2 + nota3 + nota4) /4
 
+#if (media >= 7):
+ #   print("Aprovado")
+#elif (media >= 5 ):
+ #   print("Recuperação")
+#else:
+ #   print("Reprovado")
+#---------------------------------------------
 # tarefa 39
+#idade = int(input("Digite sua idade"))
+#if (idade <= 11):
+#    print("Criança")
+#elif (idade <=17):
+#    print("Adolescente")
+#elif (idade <= 59):
+#    print("Adulto")
+#else:
+#    print("Idoso")
+#---------------------------------------------
 # tarefa 40
+#senha = ("1234")
+#sc = (input("Digite a senha"))
+#if (sc == senha):
+#    print("Entrou")
+#else:
+#    print("Negado")
+#---------------------------------------------
 # tarefa 41
+#usuario = ("Marco")
+#senha = int(1234)
+#us = (input("Digite seu usuario"))
+#sn = int(input("Dgite sua senha"))
+#if (us == usuario and sn == senha):
+#    print("Entrou")
+#else:
+#    print("negado")
+#numero = int(input("Digite um numero inteiro"))
+#if ( numero % 5 == 0):
+#    print("Multiplo de 5")
+#---------------------------------------------
 # tarefa 42
+#numero = int(input("Digite um número inteiro: "))
+#if numero % 3 == 0 and numero % 5 == 0:
+#    print(f"O número {numero} é divisível simultaneamente por 3 e por 5.")
+#else:
+#    print(f"O número {numero} NÃO é divisível simultaneamente por 3 e por 5.")
+#---------------------------------------------
 # tarefa 43
 # tarefa 44
 # tarefa 45
