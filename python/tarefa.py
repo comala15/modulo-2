@@ -2,15 +2,15 @@
 # tarefa 1
 #ola="Ola mundo!"
 #print(ola)
------------------------------------
+#-----------------------------------
 # tarefa 2
 #nome = "marco"
-#cidade = "Uberlândia"1 21' ' 2''''''''''''' fds fzx
+#cidade = "Uberlândia"
 #idade="15"
 #print(nome)
 #print(idade)
 #print(cidade)
---------------------------------
+#--------------------------------
 # tarefa 3
 #nome =  (input("Digite seu nome"))
 #print (nome)
