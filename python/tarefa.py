@@ -2,15 +2,15 @@
 # tarefa 1
 #ola="Ola mundo!"
 #print(ola)
-#---------------------------------------------
+-----------------------------------
 # tarefa 2
 #nome = "marco"
-#cidade = "Uberlândia"
+#cidade = "Uberlândia"1 21' ' 2''''''''''''' fds fzx
 #idade="15"
 #print(nome)
 #print(idade)
 #print(cidade)
-#---------------------------------------------
+--------------------------------
 # tarefa 3
 #nome =  (input("Digite seu nome"))
 #print (nome)
@@ -294,25 +294,168 @@
 #    print(f"O número {numero} NÃO é divisível simultaneamente por 3 e por 5.")
 #---------------------------------------------
 # tarefa 43
+#numero = int(input("Digite um número inteiro: "))
+#if numero % 3 == 0 and numero % 5 == 0:
+#    print(f"O número {numero} É divisível por 3 e por 5 ao mesmo tempo (divisível por 15).")
+#else:
+#    print(f"O número {numero} NÃO é divisível por 3 e por 5 simultaneamente.")
+#---------------------------------------------
 # tarefa 44
+#ano = int(input("Digite um ano"))
+#if (ano %  4 == 0):
+#    print(f" O ano {ano} e divisivel por 4 ano bissexto ")
+#else:
+#  print(f"O ano {ano} não e divisivel por 4 ano comum.")
+#---------------------------------------------
 # tarefa 45
+#valorcompra = float(input("Digite o valor da compra (R$): "))
+#if valorcompra >= 200.0:
+#    desconto = valorcompra * 0.10
+#    valorfinal = valorcompra - desconto
+#    print(f"Desconto de 10% aplicado (R$ {desconto:.2f}).")
+#else:
+#    valorfinal = valorcompra
+#    print("Sem desconto aplicado.")
+#print(f"Valor a pagar: R$ {valorfinal:.2f}")
+#---------------------------------------------
 # tarefa 46
+#compra = float(input("Digite o valor da sua compra"))
+#fret = 20
+#gr = (compra + fret)
+#if (compra >= 150):
+#    print(f"Sua compra ficou no total de {compra:.2f}")
+#else:
+#    print(f"Sua compra ficou no total de {gr:.2f}")   
+#---------------------------------------------
 # tarefa 47
+#num1 = float(input("Digite o primeiro numero: "))
+#num2 = float(input("Digite o segundo numero: "))
+#operacao = input("Digite a operação (+, -, * ou /): ").strip()
+#if (operacao == "+"):
+#    resultado = num1 + num2
+#    print(f"Resultado: {num1} + {num2} = {resultado}")
+#elif (operacao == "-"):
+#    resultado = num1 - num2
+#    print(f"Resultado: {num1} - {num2} = {resultado}")
+#elif (operacao == "*"):
+#    resultado = num1 * num2
+#    print(f"Resultado: {num1} * {num2} = {resultado}")
+#elif (operacao == "/"):
+#    if (num2 == 0):
+#        print("Erro: Não é possivel dividir por zero!")
+#    else:
+#        resultado = num1 / num2
+#        print(f"Resultado: {num1} / {num2} = {resultado}")
+#else:
+#    print("Operação inalida! Escolha entre +, -, * ou /.")
+#---------------------------------------------
 # tarefa 48
-# tarefa 49
+#a = int (input("Digite um dos lados"))
+#b = int (input("Digite um dos lados"))
+#c = int (input("Digite um dos lados"))
+#pf = (a < b + c) and (b < a + c) and (c < a + b)
+#sl = ()
+#if(pf):
+#    print("\n Os lados podem formar um triângulo")
+#    if (a == b == c ):
+#      print(" Triângulo Equilátero (todos os lados iguais)")
+#    elif (a == b or a == c or b == c  ):
+#        print(" Triângulo Isósceles (dois lados iguais)")
+#    else:
+#      print("\nOs lados formar um triângulo escaleno")
+#else:
+#   print("\nOs lados não podem formar um triângulo")
+#---------------------------------------------
 # tarefa 50
+#s = float(input("Digite seu salario"))
+#if (s <= 2000):
+#    imposto =0.0
+#elif (s <= 4000):
+#    imposto = s * 0.10
+#else:
+#    imposto = s * 0.20
+#sl = s - imposto
+#print(f"Imposto = {imposto:.2f}")
+#print(f"Salario retante = {sl:.2f}")
+#---------------------------------------------
 # tarefa 51
+#n = ()
+#for n in range(1 ,11):
+#    print(n) 
+#---------------------------------------------
 # tarefa 52
+#n = ()
+
+#for n in range(10,-1,-1):
+#    print(n)
+#---------------------------------------------
 # tarefa 53
+#n = ()
+
+#for n in range(0,101,+2):
+#    print(n)
+#---------------------------------------------
 # tarefa 54
+
+#n = ()
+#for n in range(1,100,+2):
+#    print(n)
+#---------------------------------------------
 # tarefa 55
+#n = int(input("Digite um numero"))
+#for nn in range(1,11):
+#    rr = (n * nn) 
+#    print(n, "x",nn,"=",rr)
+#---------------------------------------------   
 # tarefa 56
+#num = int(input("Digite um numero positivo"))
+#nd = (num + 1)
+#for u in range (1,nd):
+#    print(u)
+#---------------------------------------------   
 # tarefa 57
+#nu = int(input("d"))
+#fat = 1
+#for n in range(1, nu +1 ):
+#    fat = fat * n
+#    print(f"o numero fatorial e {nu} é {fat}") 
+#----------------------------------------------
 # tarefa 58
+#pr = 0
+#for p in range(1,11):
+#    nu = int(input("Digite um numero"))
+#    if (nu % 2 == 0):
+#      pr += 1
+#print(f"\n {pr} são pares")
+#----------------------------------------------
 # tarefa 59
+#soma = 0 
+#for ps in range(1,11):
+ #   nm = int(input("Digite um numero"))
+ #   if (nm > 0):
+ #     soma += nm 
+#print(f"\nA soma dos numeros positivos são = {soma}")    sum(variabel) / len(varivel)
+#------------------------------------------------
 # tarefa 60
+#ma = int(input("Digite um numero"))
+#for i in range(2,6):
+#    num =int(input("Digite um numero"))
+#if(num > ma ):
+#  print(num)
+#else:
+#   print(ma)
+#------------------------------------------------
 # tarefa 61
+#ma = int(input("Digite um numero"))
+#for i in range(2,6):
+#   num =int(input("Digite um numero"))
+#if(num < ma ):
+#  print(num)
+#else:
+#   print(ma)
+#------------------------------------------------
 # tarefa 62
+
 # tarefa 63
 # tarefa 64
 # tarefa 65
