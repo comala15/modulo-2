@@ -5,7 +5,7 @@
 #-----------------------------------
 # tarefa 2
 #nome = "marco"
-#cidade = "Uberlândia"
+#cidade = "Uberlândia"s]
 #idade="15"
 #print(nome)
 #print(idade)
@@ -434,7 +434,7 @@
  #   nm = int(input("Digite um numero"))
  #   if (nm > 0):
  #     soma += nm 
-#print(f"\nA soma dos numeros positivos são = {soma}")    sum(variabel) / len(varivel)
+#print(f"\nA soma dos numeros positivos são = {soma}")    
 #------------------------------------------------
 # tarefa 60
 #ma = int(input("Digite um numero"))
@@ -455,14 +455,80 @@
 #   print(ma)
 #------------------------------------------------
 # tarefa 62
-
+#soma = (0)
+#for n in range(1,6):
+#    nota = int(input("Digite sua nota"))
+#    soma += nota
+#media = (soma / 5)
+#print(media)
+#------------------------------------------------
 # tarefa 63
+#s = "1234"
+#senha = ("")
+
+#while s != senha :
+#  senha = (input("Digite sua senha"))
+#  if(senha != s):
+#    print("tente novamente")
+#print("Entrou")
+#------------------------------------------------
 # tarefa 64
-# tarefa 65
+#num = (0)
+
+#while num <= 0 :
+#     num = int(input("Digite um numero "))
+#------------------------------------------------
+# tarefa 65 
+#menu = (-1)
+#while menu != 0 :
+#    print("-1-Dizer ola")
+#    print("-2-Mostrar mensagem")
+#    print("-0-Sair")
+#    menu = int(input("escolha um"))
+#   if(menu == 1):
+#     print("ola")
+#   elif(menu == 2):
+#      print("saia")
+#------------------------------------------------
 # tarefa 66
+#soma = 0
+#numero = int(input("Digite 0 para somar e parar"))
+#while numero != 0:
+#  soma += numero
+#  numero = int(input("Outro numero: "))
+#  if (numero == 0):
+#    print(soma)
+#------------------------------------------------   
 # tarefa 67
-# tarefa 68
+#soma = 0
+#quantidade = 0
+#nota = int(input("Digite -1 para somar e parar"))
+#while nota != -1:
+#  soma += nota
+#  quantidade += 1
+#  media = soma / quantidade
+#  nota = int(input("Outro numero: "))
+#  if (nota == -1):
+#    print(soma)
+#    print(media)
+#------------------------------------------------
+# tarefa 68 
+#secreto = 10
+#tentativa = 0
+#while secreto != tentativa:
+#    tentativa = int(input("Tente adivinhar o numero"))
+#    if(tentativa > secreto):
+#        print("Tente um numero menor")
+#    elif(tentativa < secreto):
+#        print("Tente um numero maior")
+#print("certo")
+#------------------------------------------------
 # tarefa 69
+numero = int(input("Digite um numero inteiro"))
+while numero >= 1 :
+    if (numero % numero):
+        print("e primo")
+#------------------------------------------------
 # tarefa 70
 # tarefa 71
 # tarefa 72
