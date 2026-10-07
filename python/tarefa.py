@@ -524,22 +524,78 @@
 #print("certo")
 #------------------------------------------------
 # tarefa 69
-numero = int(input("Digite um numero inteiro"))
-while numero >= 1 :
-    if (numero % numero):
-        print("e primo")
+#numero = int(input("Digite um numero maior que 1\n "))
+#i = 2
+#while(i < numero and numero % i != 0):
+#    i += 1
+#if (i == numero):
+#    print("e primo")
+#else:
+#    print("Não e primo")
 #------------------------------------------------
 # tarefa 70
+#inicio = int(input("Digite um numero"))
+#fim = int(input("Digite um numero"))
+#i =min(inicio, fim)
+#f =max(inicio, fim)
+#print(f"Numeros primos entre {i} e {f}")
+#for p in range(i , f +1):
+ #   if (p > 1 ):
+ #         pr = 2
+ #         while(pr < p and p % pr != 0):
+ #              pr +=1
+ #              if (pr == p):
+ #                   print(p,end=" ")                    
+#------------------------------------------------
 # tarefa 71
+#nome = str(input("Digite uma palavra\n"))
+#print(len(nome))
+#------------------------------------------------
 # tarefa 72
+#nome = str(input("Digite alguma coisa\n"))
+#print(nome.upper())
+#print(nome.lower())
+#------------------------------------------------
 # tarefa 73
+#nome = str(input("Digite uma palavra\n"))
+#print(nome[0])
+#print(nome[-1])
+#------------------------------------------------
 # tarefa 74
+#nome = str(input("Digite uma palavra\n"))
+#print(nome.count("a"))
+#print(nome.count("A"))
+#------------------------------------------------
 # tarefa 75
+#palavra = str(input("Digite uma palavra\n"))
+#if(palavra == palavra[::-1]):
+#    print("pode ser lida ")
+#else:
+#    print("Não pode ser lida")
+#------------------------------------------------
 # tarefa 76
+#palavra = str(input("Digite uma palavra\n"))
+#print(palavra[::-1])
+#------------------------------------------------
 # tarefa 77
+#frase = str(input("Digite uma frase\n"))
+#for palavra in (frase.split()):
+#    print(palavra)
+#------------------------------------------------
 # tarefa 78
+#frase = str(input("Digite uma frase\n "))
+#quantas = len(frase.split())
+#print(f"A frase possui {quantas} palavras")
+#------------------------------------------------
 # tarefa 79
+#frase = str(input("Digite uma frase\n"))
+#palavra = str(input("Digite uma palavra para ser substituida na frase\n"))
+#sb = str(input("Digite a palavra que vai substituir\n"))
+#nova = frase.replace(palavra, sb)
+#print(nova)
+#------------------------------------------------
 # tarefa 80
+#------------------------------------------------
 # tarefa 81
 # tarefa 82
 # tarefa 83
