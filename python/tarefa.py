@@ -597,14 +597,75 @@
 # tarefa 80
 #------------------------------------------------
 # tarefa 81
+#nome = ["Ana", "Bruno", "Carla", "Daniel", "Eduarda"]
+#for nome in (nome):
+#    print(nome)
+#------------------------------------------------
 # tarefa 82
+#nome = [ ]
+#for n in range(1,6):
+#    nome.append(input("Digite um nome\n"))
+#print(nome)
+#------------------------------------------------
 # tarefa 83
+#numeros = [1,2,3,4]
+#s = 0
+#for numero in (numeros):
+#    s += numero
+#print(f"A soma dos elementos e {s}")
+#------------------------------------------------
 # tarefa 84
+#numeros = [1,2,3,4]
+#maior = numeros[0]
+#for numero in (numeros):
+#    if (numero > maior):
+#        maior = numero
+#print(f"O maior numero e {maior}")
+#------------------------------------------------
 # tarefa 85
+#numeros = [1,2,3,4]
+#menor = numeros[0]
+#for numero in (numeros):
+#    if (numero < menor):
+#        menor = numero
+#print(f"O menor numero e {menor}")
+#------------------------------------------------
 # tarefa 86
+#nota = []
+#for n in range(1,6):
+#   notas = int(input("Digite uma nota\n"))
+#   nota.append(notas)
+#media = sum(nota) / len(nota)  
+#print(media) 
+#------------------------------------------------
 # tarefa 87
+#numeros = [2, 8, 9, 40, 20]
+#pares = []
+#for numero in (numeros):
+#  if (numero % 2 == 0):
+#   pares.append(numero)
+#print(pares)
+#------------------------------------------------
 # tarefa 88
+#nomes = ["ana", "clara", "alicie", "marco", "Marcos"]
+#nome = input("Digite um nome para remover\n")
+#if nome in nomes:
+#    nomes.remove(nome)
+#    print(f"{nome} foi removido com sucesso!")
+#    print(f"Lista atualizada{nomes}")
+#else:
+#    print(f"O nome{nome}não esta na lista")
+#------------------------------------------------
 # tarefa 89
+#pr = []
+#for p in range(1,6):
+#    pr.append(input("Digite um produto\n"))  
+#busca = (input("Busque um produto\n"))
+#if (busca in pr):
+#    print("Esta cadastrado")
+#else:
+#    print("Não esta cadastrado")
+#------------------------------------------------
 # tarefa 90
 # tarefa 91
 # tarefa 92
