@@ -595,6 +595,9 @@
 #print(nova)
 #------------------------------------------------
 # tarefa 80
+#li = ["marco","murilo ","bruno","carlos", "cleton"]
+#for mostrar in range(1,6):
+#    print(li[0])
 #------------------------------------------------
 # tarefa 81
 #nome = ["Ana", "Bruno", "Carla", "Daniel", "Eduarda"]
@@ -667,6 +670,7 @@
 #    print("Não esta cadastrado")
 #------------------------------------------------
 # tarefa 90
+numero  = {1,2,3,4,}
 # tarefa 91
 # tarefa 92
 # tarefa 93
@@ -712,3 +716,7 @@
 # tarefa 133
 # tarefa 134
 # tarefa 135
+
+
+
+
