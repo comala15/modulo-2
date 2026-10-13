@@ -680,7 +680,18 @@
 #print(numeros[::-1])
 #------------------------------------------------
 # tarefa 91
+#numeros = set()
+#for i in range(1,11):
+#    numero = int(input("Digite um numero \n"))
+#    numeros.add(numero)
+#print(numeros)
+#------------------------------------------------
 # tarefa 92
+#conjunto1 =[1,2,3,4]
+#conjunto2 = [5,6,7,8]
+#print(conjunto1)
+#print(conjunto2)
+#------------------------------------------------
 # tarefa 93
 # tarefa 94
 # tarefa 95
@@ -724,6 +735,5 @@
 # tarefa 133
 # tarefa 134
 # tarefa 135
-
 
 
