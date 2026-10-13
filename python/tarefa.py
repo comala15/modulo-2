@@ -670,7 +670,15 @@
 #    print("Não esta cadastrado")
 #------------------------------------------------
 # tarefa 90
-numero  = {1,2,3,4,}
+#numeros = []
+#for i in range(1,6):
+#    s= int(input("Digite um numero\n"))
+#    numeros.append(s) 
+#numeros.sort()
+#print(numeros)
+#numeros.sort
+#print(numeros[::-1])
+#------------------------------------------------
 # tarefa 91
 # tarefa 92
 # tarefa 93
@@ -716,7 +724,6 @@ numero  = {1,2,3,4,}
 # tarefa 133
 # tarefa 134
 # tarefa 135
-
 
 
 
