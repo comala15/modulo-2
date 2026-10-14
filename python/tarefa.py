@@ -693,10 +693,45 @@
 #print(conjunto2)
 #------------------------------------------------
 # tarefa 93
+#coordenada = (10, 20)
+#x, y = coordenada
+#print(f"Valor de x  = {x}")
+#print(f"Valor de y = {y}")
+#------------------------------------------------
 # tarefa 94
+#pessoa = {
+#"nome": "Marco",
+#"idade": 15,
+#"cidade": "Uberlândia"}
+#print(f"Voce mora na cidade de {pessoa["cidade"]} o seu nome e {pessoa["nome"]} a sua idade e {pessoa["idade"]} ")
+#------------------------------------------------
 # tarefa 95
+#nome = (input("Digite seu nome\n"))
+#nota1 = float(input("Digite sua nota\n"))
+#nota2 = float(input("Digite sua nota\n"))
+#media = (nota1 + nota2)/2
+
+#al = {
+#    "aluno" : nome,
+#    "n1" :nota1 ,
+#    "n2" :nota2 ,
+#    "md":media,}
+#print(al["aluno"])
+#print(al["n1"])
+#print(al["n2"])
+#print(al["md"])
+#--------------------------------------------------
 # tarefa 96
+#produtos = [
+#{"nome": "skate", "preco": 800},
+#{"nome": "Rolamento", "preco": 150},
+#{"nome": "lixa", "preco": 50}
+#]
+#for produto in produtos:
+# print(produto["nome"], produto["preco"])
+#--------------------------------------------------
 # tarefa 97
+
 # tarefa 98
 # tarefa 99
 # tarefa 100
