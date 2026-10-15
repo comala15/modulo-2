@@ -731,10 +731,44 @@
 # print(produto["nome"], produto["preco"])
 #--------------------------------------------------
 # tarefa 97
-
+#produtos = [
+#    {"nome": "Mouse", "preco": 150.00},
+#    {"nome": "Notebook", "preco": 4500.00},
+#    {"nome": "Teclado", "preco": 300.00},
+#    {"nome": "Monitor", "preco": 1200.00}
+#]
+#if produtos:
+#    caro = produtos[0]
+#    for produto in produtos[1:]:
+#        if produto["preco"] > caro["preco"]:
+#            caro = produto
+#    print(f"O produto mais caro é  {caro['nome']} custando R$ {caro['preco']:.2f}")
+#else:
+#    print("A lista de produtos está vazia.")
+#---------------------------------------------------
 # tarefa 98
+#agenda = {
+#    "Ana": "34 66244 6745",}
+#busca = input("Digite o nome da pessoa que deseja buscar\n ")
+#telefone = agenda.get(busca)
+#if telefone:
+#    print(f"O telefone de {busca} e {telefone}")
+#else:
+#    print(f"Desculpe {busca} não foi encontrado na agenda")
+#----------------------------------------------------
 # tarefa 99
+#frase = "o rato roeu a roupa do rei de roma e o rato roeu o queijo"
+#palavra = frase.split()
+#quantas ={}
+#for palavra in palavra:
+#    if (palavra in quantas):
+#      quantas[palavra] += 1
+#    else:
+#       quantas[palavra] = 1
+#print(quantas)
+#----------------------------------------------------
 # tarefa 100
+
 # tarefa 101
 # tarefa 102
 # tarefa 103
@@ -770,5 +804,4 @@
 # tarefa 133
 # tarefa 134
 # tarefa 135
-
 
