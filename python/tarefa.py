@@ -843,7 +843,10 @@
 #cf()
 #----------------------------------------------------
 # tarefa 109
-
+#n = int(input("Digite um numero\n"))
+#def fatorial(n):
+#    return 1 if n <= 1 else n * fatorial(n - 1)
+#print(fatorial(n))
 # tarefa 110
 # tarefa 111
 # tarefa 112
