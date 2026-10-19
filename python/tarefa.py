@@ -768,16 +768,82 @@
 #print(quantas)
 #----------------------------------------------------
 # tarefa 100
-
+#estoque = {"arroz":10,
+#            "feijao":5,
+#            "macarrao":8}
+#produto = input("Nome do produto\n").lower()
+#quantidade = int(input("Quantidade\n"))
+#if produto in estoque and quantidade <= estoque[produto]:
+#    estoque[produto] -= quantidade
+#    print(f"Novo estoque de {produto}\n{estoque[produto]}")
+#else:
+#    print("Não  esta no estoque")
+#----------------------------------------------------
 # tarefa 101
+#def saudacao():
+#    print("Bem-vindo")
+#saudacao()
+#-----------------------------------------------------
 # tarefa 102
+#nome = (input("Digite seu nome\n"))
+#def saudacao():
+#    print(f"bem-vindo{nome}")
+#saudacao()
+#----------------------------------------------------
 # tarefa 103
+#numero1 = int(input("Digite um numro\n"))
+#numero2 = int(input("Digite um numero\n")) 
+#def soma():
+#  s =  numero1 + numero2
+#  print(s)
+#soma()
+#----------------------------------------------------
 # tarefa 104
+#numero1 = int(input("Digite um numero\n"))
+#numero2 = int(input("Digite um numero\n"))
+#def maior(n1, n2):
+#    if n1 >= n2:
+#        print(f"O maior numero e {n1}")
+#    else:
+#        print(f"O maior numero e {n2}")
+#maior(numero1, numero2)
+#----------------------------------------------------
 # tarefa 105
+#numero = int(input("Digite um numero\n"))
+#def pi():
+#    if numero % 2 == 0:
+#        print(f"O numero {numero} par")
+#    else:
+#       print(f"O numero {numero} impar")
+#pi()
+#----------------------------------------------------
 # tarefa 106
+#num1 = int(input("Digite sua nota\n"))
+#num2 = int(input("Digite sua nota\n"))
+#num3 = int(input("Digite sua nota\n"))
+
+#def media():
+#    md = (num1 + num2 + num3) / 3
+#    print(md)
+#media()
+#----------------------------------------------------
 # tarefa 107
+#largura = float(input("Digite a largura do retangulo\n"))
+#altura = float(input("Digite a altura do retangulo\n"))
+#def area():
+#    ar = (largura * altura)
+#    print(f"A area e {ar}")
+#area()  
+#----------------------------------------------------
 # tarefa 108
+#grausc = float(input("Digite um valor em graus celsius\n"))
+#def cf():
+#  fanhreit =( grausc  * 9 / 5 + 32)
+#  print(f"{grausc}c equivalente a {fanhreit :.1f}f")
+#cf()
+#----------------------------------------------------
 # tarefa 109
+
 # tarefa 110
 # tarefa 111
 # tarefa 112
