@@ -534,6 +534,7 @@
 #    print("Não e primo")
 #------------------------------------------------
 # tarefa 70
+
 #inicio = int(input("Digite um numero"))
 #fim = int(input("Digite um numero"))
 #i =min(inicio, fim)
@@ -847,8 +848,31 @@
 #def fatorial(n):
 #    return 1 if n <= 1 else n * fatorial(n - 1)
 #print(fatorial(n))
+#----------------------------------------------------
 # tarefa 110
-# tarefa 111
+#numero = int(input("Digite um numero maior que 1\n "))
+
+#def primo(numero):
+#  i = 2
+#  while(i < numero and numero % i != 0):
+#    i += 1
+#  if (i == numero):
+#    return True
+#  else:
+#    return False
+#print(primo(numero))
+#----------------------------------------------------
+#tarefa 111
+#nome = str(input("Digite uma palavra\n"))
+#def v(nome):     
+# a = nome.count("a")
+# b = nome.count("e")
+# c = nome.count("i")
+# d = nome.count("o")
+# e = nome.count("u")
+# return (a+b+c+d+e)
+#print(v(nome))
+#----------------------------------------------------
 # tarefa 112
 # tarefa 113
 # tarefa 114
@@ -873,4 +897,3 @@
 # tarefa 133
 # tarefa 134
 # tarefa 135
-
