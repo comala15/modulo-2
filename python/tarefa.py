@@ -874,7 +874,21 @@
 #print(v(nome))
 #----------------------------------------------------
 # tarefa 112
+#lista = [1,2,3,4,5,60,90,100]
+
+#def numero(lista):
+#  maior = (lista[0])
+#  for n in (lista):
+#    if (n > maior):
+#      maior = n
+#  return maior
+#print(numero(lista))
+#-----------------------------------------------------
 # tarefa 113
+#lista = [1,2,6,6,6,6,6,]
+#def md(lista):
+#    return sum(lista) / len(lista)
+#print(f"{md(lista):.2f}")
 # tarefa 114
 # tarefa 115
 # tarefa 116
