@@ -890,7 +890,50 @@
 #    return sum(lista) / len(lista)
 #print(f"{md(lista):.2f}")
 # tarefa 114
+#-----------------------------------------------------
 # tarefa 115
+#t = ("Calculadora")
+#print(t)
+#numero = float(input("Digite um numero\n"))
+#numero2 = float(input("Digite um numero\n"))
+
+#def soma(numero,numero2):
+#    so = (numero + numero2)
+#    return(so)
+
+#def subtrair(numero,numero2):
+#    s = (numero - numero2)
+#    return(s)
+
+#def dividir(numero,numero2):
+#    d = (numero / numero2)
+#    return(f"{d:.2}")
+
+#def multiplicar(numero,numero2):
+#   m = (numero * numero2)
+#    return(m)
+
+#menu = (-1)
+#while menu != 0 :
+#    print("\n1 = Somar\n")
+#    print("2 = Subtrair\n")
+#    print("3 = Dividir\n")
+#    print("4 = Multiplicar\n")
+#    print("0 = Fexar\n")
+#    menu = int(input("escolha um"))
+#    if(menu == 1):
+#      print(soma(numero,numero2))
+
+#   elif(menu == 2):
+#      print(subtrair(numero,numero2))
+
+#    elif(menu == 3):
+#      print(dividir(numero,numero2))
+
+#    elif(menu == 4):
+#      print (multiplicar(numero,numero2))
+
+#-----------------------------------------------------
 # tarefa 116
 # tarefa 117
 # tarefa 118
