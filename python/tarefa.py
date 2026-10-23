@@ -935,7 +935,12 @@
 
 #-----------------------------------------------------
 # tarefa 116
+#nome = str(input("Digite um nome"))
+#with open("nome.txt","w",encoding="utf-8") as arquivo:
+#    arquivo.write(nome)
+#-----------------------------------------------------
 # tarefa 117
+
 # tarefa 118
 # tarefa 119
 # tarefa 120
