@@ -940,9 +940,23 @@
 #    arquivo.write(nome)
 #-----------------------------------------------------
 # tarefa 117
-
+#while True:  
+#    nome = str(input("Digite seu nome\n"))
+#    if (nome == "sair"):
+#        break 
+#    with open("nome.txt","a",encoding="utf-8") as arquivo:
+#        arquivo.write(nome + "\n")    
+#-----------------------------------------------------
 # tarefa 118
+#with open("nome.txt", "r", encoding="utf-8") as nome:
+#  conteudo = nome.read()
+#print(conteudo)
+#-----------------------------------------------------
 # tarefa 119
+with open("nome.txt", "r", encoding="utf-8") as arquivo:
+   for triste in arquivo: 
+      linha = arquivo.read().strip()
+      print(linha)
 # tarefa 120
 # tarefa 121
 # tarefa 122
