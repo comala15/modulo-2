@@ -953,17 +953,63 @@
 #print(conteudo)
 #-----------------------------------------------------
 # tarefa 119
-with open("nome.txt", "r", encoding="utf-8") as arquivo:
-   for triste in arquivo: 
-      linha = arquivo.read().strip()
-      print(linha)
+#with open("nome.txt", "r", encoding="utf-8") as arquivo:
+#  for triste in arquivo:
+#    print(triste.strip())
+#-----------------------------------------------------
 # tarefa 120
+#with open("nome.txt","r",encoding="utf-8") as arquivo:
+#  linha = sum(1 for linha in arquivo)
+#  print(linha)
+#-----------------------------------------------------
 # tarefa 121
+#try:
+#  numero = input("Dijite um numero")
+#  n =int(numero)
+#  print(n)
+#except ValueError:
+#  print("Digite somente numeros")
+#-----------------------------------------------------
 # tarefa 122
+#try:
+#    num1 = int(input("Digite um numero\n"))
+#    num2 = int(input("Digite um numero\n"))
+#    d = num1 / num2
+#    print(d)
+#except ZeroDivisionError:
+#    print("Não pode ser dividido por 0") 
+#-----------------------------------------------------
 # tarefa 123
+#import calculos
+#soma = calculos.soma(3)
+#print(soma)
+#dividir = calculos.dividir(soma)
+#print(dividir)
+#-----------------------------------------------------
 # tarefa 124
+#class perssoa:
+#    def __init__(self,nome,idade):
+#        self.nome = nome
+#        self.idade =idade
+#perssoa = perssoa("Marco",15)
+#print(perssoa.nome)
+#print(perssoa.idade)
+#-----------------------------------------------------
 # tarefa 125
+#class pessoa:
+#    def __init__(self,nome,idade):
+#        self.nome = nome
+#        self.idade = idade
+#pessoa1 = pessoa("Marco",15)
+#pessoa2 = pessoa("Alicie",15)
+#print(pessoa1.nome)
+#print(pessoa1.idade) 
+#print(pessoa2.nome) 
+#print(pessoa2.idade) 
+#-----------------------------------------------------
 # tarefa 126
+class pessoa():
+    
 # tarefa 127
 # tarefa 128
 # tarefa 129
