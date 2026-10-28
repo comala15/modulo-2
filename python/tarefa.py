@@ -990,10 +990,9 @@
 #class perssoa:
 #    def __init__(self,nome,idade):
 #        self.nome = nome
-#        self.idade =idade
+#        self.idade = idade
 #perssoa = perssoa("Marco",15)
-#print(perssoa.nome)
-#print(perssoa.idade)
+#print(perssoa.nome,perssoa.idade)
 #-----------------------------------------------------
 # tarefa 125
 #class pessoa:
@@ -1008,9 +1007,22 @@
 #print(pessoa2.idade) 
 #-----------------------------------------------------
 # tarefa 126
-class pessoa():
-    
+#class pessoa:
+#    def __init__(self,nome,idade):
+#        self.nome = nome
+#        self.idade = idade
+#    def apresentar(self):
+#        print(f"Meu personagem se chama {self.nome} e a idade dele é {self.idade}")     
+#p1 = pessoa("marco",15)
+#p1.apresentar()
+#-----------------------------------------------------
 # tarefa 127
+class produtos():
+    def __init__(self,nome,preço):
+        self.nome = nome
+        self.preço = preço
+
+        
 # tarefa 128
 # tarefa 129
 # tarefa 130
