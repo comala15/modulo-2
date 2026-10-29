@@ -1032,20 +1032,100 @@
   #print(produto3.preço)
   #-----------------------------------------------------
   # tarefa 128
-#class produto():
+#class produto:
 #       def __init__(self,nome,preço):
 #            self.nome = nome
 #            self.preço = preço 
 #       def desconto(self,percentual):
 #          self.preço *= (1 - percentual / 100)
-#combo = produto("combogg",100)
+#combo = produto("combogg",350)
 #combo.desconto(10)
 #print(combo.preço)
- #-----------------------------------------------------
+#-----------------------------------------------------
   # tarefa 129
+#class ContaBancaria:  
+#    def __init__(self,titular,saldo):
+#        self.titular = titular
+#        self.saldo = saldo
+#    def Deposito(self,valor,):
+#      if (valor >  0):
+#        self.saldo += valor 
+#        print(self.saldo)
+#    def Sac(self,valor):
+#      if (0 < valor <=self.saldo):
+#        self.saldo -= valor 
+#conta = ContaBancaria("Marco",100)
+#conta.Deposito(40)
+#conta.Sac(30)
+#print(conta.saldo)
+#-----------------------------------------------------
   # tarefa 130
+#class Aluno:
+#    def __init__(self,nome,nota):
+#        self.nome = nome
+#        self.nota = nota
+#    def media(self):
+#      return  sum(self.nota) / 4
+#aluno = Aluno("Marco", [10,10,10,20])
+#print(aluno.media())
+#-----------------------------------------------------
   # tarefa 131
+#class Aluno:
+#    def __init__(self,nome,nota):
+#        self.nome = nome
+#        self.nota = nota
+#    def media(self):
+#      return  sum(self.nota) / 4
+#    def situacao(self):
+#       me = self.media()  
+#       if me >= 6:
+#           print("Aprovado")
+#       else:
+#        print("Reprovado")
+#aluno = Aluno("Marco", [10,10,10,20])
+#print(aluno.media())
+#aluno.situacao()
+#-----------------------------------------------------
   # tarefa 132
-  # tarefa 133
-  # tarefa 134
+class Retangulo:
+    def __init__(self,altura,largura):
+        self.altura = altura
+        self.largura = largura
+    def calcular_area(self):
+      area = self.altura * self.largura
+      return(area)
+    def calcular_perimetro(self):
+     perimetro = self.altura * 2 + self.largura * 2   
+retangulo = Retangulo(2,2)     
+# tarefa 133
+ 
+# tarefa 134
+#class Livro:
+#    def __init__(self,titulo, autor ,disponivel):
+#        self.titulo = titulo
+#        self.autor = autor
+#        self.disponive = disponivel
+
+#    def __init__(self,):
+#        self.livro = []
+
+#    def add(self,livro):
+#        livro.disponivel = True
+#        self.livro.append(livro)
+#        print("livro emprestado com sucesso")
+
+#    def lista(self):
+#        for livro in self.livros:
+#            print(livro)
+
+#    def empretar(self,emprestimo):
+#        if emprestimo in self.livro:
+#          posicao= self.livro.index(emprestimo)
+#          self.livros[posicao].disponivel = False
+#          print(emprestimo,"emprestado com sucesso")
+#    def devolver(self,devolvido):
+#        if devolvido in self.livro
+#        posicao= self.livro.index(devolvido)
+#        self.livros[posicao].disponivel = True
+
   # tarefa 135
