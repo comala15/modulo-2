@@ -1032,7 +1032,16 @@
   #print(produto3.preço)
   #-----------------------------------------------------
   # tarefa 128
-
+#class produto():
+#       def __init__(self,nome,preço):
+#            self.nome = nome
+#            self.preço = preço 
+#       def desconto(self,percentual):
+#          self.preço *= (1 - percentual / 100)
+#combo = produto("combogg",100)
+#combo.desconto(10)
+#print(combo.preço)
+ #-----------------------------------------------------
   # tarefa 129
   # tarefa 130
   # tarefa 131
