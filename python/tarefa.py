@@ -1087,18 +1087,37 @@
 #aluno.situacao()
 #-----------------------------------------------------
   # tarefa 132
-class Retangulo:
-    def __init__(self,altura,largura):
-        self.altura = altura
-        self.largura = largura
-    def calcular_area(self):
-      area = self.altura * self.largura
-      return(area)
-    def calcular_perimetro(self):
-     perimetro = self.altura * 2 + self.largura * 2   
-retangulo = Retangulo(2,2)     
+#class Retangulo:
+#    def __init__(self,altura,largura):
+#        self.altura = altura
+#        self.largura = largura
+#    def calcular_area(self):
+#      area = self.altura * self.largura
+#      return(area)
+#    def calcular_perimetro(self):
+#     perimetro = self.altura * 2 + self.largura * 2
+#     return(perimetro)
+#       
+#retangulo = Retangulo(2,2)     
+#print(retangulo.calcular_area())
+#print(retangulo.calcular_perimetro())
 # tarefa 133
- 
+#class carro():
+#    def __init__(self,velocidade_atual,velocidade_maxima):
+#        self.velocidade_atual = velocidade_atual
+#        self.velocidade_maxima = velocidade_maxima
+#    def acelerar(self,valor):
+#        acelerar = self.velocidade_atual + valor
+#        print(acelerar)
+#    def freiar(self,valor):
+#        freiar = self.velocidade_atual - valor
+#        print(freiar)
+
+#velocidade_carro = carro(100,200)
+#velocidade_carro.acelerar(20)
+#velocidade_carro.freiar(30)
+#print(velocidade_carro.velocidade_atual)
+        
 # tarefa 134
 #class Livro:
 #    def __init__(self,titulo, autor ,disponivel):
